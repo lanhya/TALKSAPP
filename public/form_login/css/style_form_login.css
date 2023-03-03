@@ -1,0 +1,118 @@
+body{
+    display: grid;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+
+}
+
+.Login_form{
+    width: 380px;
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0px 5px 10px rgb(240, 133, 133);
+    margin-right: 10px;
+}
+.Login_form .title{
+
+    background: rgb(243, 95, 95);
+    font-weight: bold;
+    text-align: center;
+    line-height: 100px;
+    font-size: 35px;
+    color: #fff;
+    border-radius: 15px 15px 0 0;
+}
+.subtitle{
+    text-align: center;
+}
+.Login_form form{
+    padding: 10px 30px 50px 30px;
+}
+.Login_form form .field{
+    height: 40px;
+    width: 90%;
+    margin-top: 20px;
+    position: relative;
+}
+.Login_form form button{
+    background-color: rgb(243, 95, 95);
+    width: 90%; height: 6.5vh; outline: none; border: none;
+    border-radius: 15px; 
+    margin-left: 30px; font-weight: bold; font-size: 17px; color: white;
+}.to_message:active, .login:active{
+    transform: scale(0.90);
+}
+.Login_form form .field a{
+    background-color: rgb(92, 95, 245);
+    width: 90%; height: 6.5vh; outline: none; border: none;
+    border-radius: 15px; 
+    margin-left: 30px; font-weight: bold; font-size: 17px; color: white;
+    text-align: center;
+}
+/* .login_form form button:active{
+    transform: scale(0.90);
+} */
+.Login_form form .field input{
+    height: 100%;
+    width: 100%;
+    outline: none;
+    font-size: 17px;
+    padding-left: 20px;
+    border: 1px solid lightgrey;
+    border-radius: 25px;
+    transition: all 0.3s ease;
+}
+.Login_form form .field label{
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    color: #999999;
+    font-weight: 400;
+    font-size: 17px;
+    pointer-events: none;
+    transform: translateY(-50%);
+    transition: all 0.3s ease;
+}form .field input:focus ~ label{
+    top: 0%;
+    font-size: 16px;
+    color: red;
+    background: #fff;
+    transform: translateY(-50%);
+}
+form .content{
+    display: flex;
+    width: 100%;
+    height: 50px;
+    font-size: 16px;
+    align-items: center;
+    justify-content: space-around;
+}
+form .content .checkbox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+form .content input{
+    width: 15px;
+    height: 15px;
+    background: red;
+}
+form .content label{
+    color: #262626;
+    user-select: none;
+    padding-left: 5px;
+}
+/* .login{
+    display: none;
+} */
+form .forgot_pass a{
+    color: #4158d0;
+    text-decoration: none;
+}
+form .forgot_pass a:hover{
+    text-decoration: underline;
+}
+.dylanh{
+    text-align: center;
+}
